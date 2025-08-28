@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Tailwind",
+      "runtimeExecutable": "npx",
+      "program": "tailwindcss",
+      "args": [
+        "-i", "./static/css/input.css",
+        "-o", "./static/css/output.css",
+        "--watch"
+      ]
+    }
+  ]
+}
